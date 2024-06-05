@@ -1,0 +1,107 @@
+*{
+    font-family: Poppins;
+    margin: 0;
+}
+.main-container{
+    background-color: #0f6efc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-form{
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 305px;
+    gap: 20px;
+    border-radius: 10px;
+}
+.login-title{
+    font-weight: 600;
+    font-size: large;
+}
+.label-checkbox{
+    font-size: small;
+}
+.input-checkbox{
+    height: 11px;
+    width: 11px;
+}
+.typing{
+    height:40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #b2b2b25b;
+}
+::placeholder{
+    padding-left: 10px;
+    color: black;
+    font-size: small;
+    font-weight: 500;
+}
+button{
+    width: 300px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 200ms;
+}
+.login-btn{
+    height: 40px;
+    background-color: #0b6eff;
+    margin-bottom: 10px;
+}
+button:hover{
+    box-shadow: 0 5px 5px -4px rgb(95, 95, 95);
+    font-size: medium;
+}
+hr{
+    border: 0.5px solid #b2b2b25b;
+}
+a{
+    font-size: 11px;
+    justify-content: space-between;
+    font-weight: 500;
+    color: grey;
+}
+.link{
+    display: flex;
+    gap: 20px;
+    justify-content:end;
+    margin-bottom: 15px;
+}
+.alt-title{
+    font-size: small;
+    font-weight: 500;
+}
+.google-btn{
+    background-color: #df3343;
+    height:35px;
+}
+.facebook-btn{
+    background-color: #0d70fe;
+    height:35px;
+}
+.twitter-btn{
+    color: black;
+    background-color: #0dc8f3;
+    height:35px;
+}
+.alt-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+img{
+    margin-top: 6px;
+    margin-right: 5px;
+    height: 12px;
+    width: 12px;
+    flex-direction: row;
+}
