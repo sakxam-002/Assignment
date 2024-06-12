@@ -30,15 +30,17 @@
 .input-checkbox{
     height: 11px;
     width: 11px;
+    margin-right: 5px;
 }
 .typing{
     height:40px;
     width: 300px;
     border-radius: 5px;
     border: 1px solid #b2b2b25b;
+    padding-left: 10px;
 }
 ::placeholder{
-    padding-left: 10px;
+
     color: black;
     font-size: small;
     font-weight: 500;
@@ -69,12 +71,16 @@ a{
     justify-content: space-between;
     font-weight: 500;
     color: grey;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
 }
 .link{
     display: flex;
     gap: 20px;
     justify-content:end;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .alt-title{
     font-size: small;
